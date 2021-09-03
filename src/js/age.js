@@ -7,17 +7,17 @@ export class Person {
 
   mercuryAge() {
     this.mercury = this.age / .24;
-    return Math.round(this.mercury * 10) / 10;
+    return Math.round(this.mercury * 100) / 100;
   }
 
   venusAge() {
     this.venus = this.age / .62;
-    return Math.round(this.venus * 10) / 10;
+    return Math.round(this.venus * 100) / 100;
   }
 
   marsAge() {
     this.mars = this.age / 1.88;
-    return Math.round(this.mars * 10) / 10;
+    return Math.round(this.mars * 100) / 100;
   }
 
   jupiterAge() {

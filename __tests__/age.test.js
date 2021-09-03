@@ -13,11 +13,11 @@ describe('Person', () => {
   });
 
   test('should convert age to years on Mercury', () => {
-    expect(person.mercuryAge()).toEqual(195.8);
+    expect(person.mercuryAge()).toEqual(195.83);
   });
 
   test('should convert age to years on Venus', () => {
-    expect(person.venusAge()).toEqual(75.8);
+    expect(person.venusAge()).toEqual(75.81);
   });
 
   test('should convert age to years on Mars', () => {
