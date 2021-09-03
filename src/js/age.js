@@ -4,4 +4,8 @@ export class Person {
     this.age = age;
     this.planet = planet;
   }
+
+  mercuryAge(earthAge) {
+
+  }
 }
