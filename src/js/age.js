@@ -3,6 +3,8 @@ export class Person {
     this.name = name;
     this.age = age;
     this.planet = planet;
+    // this.lifeExpected = 75;
+    // this.mercuryExpected = "";
   }
 
   mercuryAge() {
@@ -23,6 +25,13 @@ export class Person {
   jupiterAge() {
     this.jupiter = this.age / 11.86;
     return Math.round(this.jupiter * 100) / 100;
+  }
+
+  timeLeftMercury() {
+    let mercuryLeft = this.mercuryExpected -= this.mercury;
+    this.mercuryExpected = this.lifeExpected / .24;
+    // this.mercuryExpected -= this.mercury;
+    return Math.round(mercuryLeft * 100) / 100;
   }
 }
 
