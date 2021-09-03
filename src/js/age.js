@@ -11,7 +11,11 @@ export class Person {
   }
 
   venusAge() {
-
+    this.venus = this.age / .62;
+    return Math.round(this.venus * 10) / 10;
+  }
+  marsAge() {
+    
   }
 }
 
