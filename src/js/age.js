@@ -3,10 +3,11 @@ export class Person {
     this.name = name;
     this.age = age;
     this.planet = planet;
+    this.mercury = "";
   }
 
   mercuryAge() {
-    mercAge = this.age / .24;
-    return mercAge;
+    this.mercury = this.age / .24;
+    return this.mercury;
   }
 }
