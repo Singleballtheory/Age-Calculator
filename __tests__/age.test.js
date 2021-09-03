@@ -13,7 +13,6 @@ describe('Person', () => {
   });
 
   test('should convert age to correspond with the planet they are on', () => {
-    // mercuryAge(47);
     expect(person.mercuryAge()).toEqual(195.8);
   })
 });
