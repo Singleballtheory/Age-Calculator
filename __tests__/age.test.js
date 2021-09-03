@@ -1,4 +1,4 @@
-import {Person, mercuryAge} from './../src/js/age.js';
+import {Person} from './../src/js/age.js';
 
 describe('Person', () => {
   let person;
@@ -13,7 +13,6 @@ describe('Person', () => {
   });
 
   test('should convert age to correspond with the planet they are on', () => {
-    let earthAge = 47;
-    expect(mercAge).toEqual(195.8);
+    expect().toEqual(195.8);
   })
 });

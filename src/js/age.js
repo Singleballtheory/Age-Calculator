@@ -5,7 +5,8 @@ export class Person {
     this.planet = planet;
   }
 
-  mercuryAge(earthAge) {
-
+  mercuryAge() {
+    mercAge = this.age / .24;
+    return mercAge;
   }
 }
