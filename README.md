@@ -1,3 +1,10 @@
+Create a constructor(?) with age-in-days and planet inputs
+expected output is age in years based upon planet
+convert math equations for Mercury, Venus, Mars, Jupiter
+Earth 1 year = 365, Mercury is 1 year = 365 * .24?
+determine life expectancy for each planted based on being 100 years old on earth
+
+
 # (Application Name)
 
 #### (Brief Description of Application)
