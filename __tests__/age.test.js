@@ -27,4 +27,8 @@ describe('Person', () => {
   test('should convert age to years on Jupiter', () => {
     expect(person.jupiterAge()).toEqual(3.96);
   })
+
+  test('should calculate how many years you have left on Mercury based on current age', () => {
+    expect(person.timeLeftMercury()).toEqual(116.67);
+  })
 });
