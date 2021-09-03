@@ -1,41 +1,36 @@
-May have been doing this wrong the whole time. Might need a class/constructor of planets
-either instead of or in addition to the Person class...
+# Super Galactic Age Calculator
 
-Create a constructor(?) with age-in-days and planet inputs
-expected output is age in years based upon planet
-convert math equations for Mercury, Venus, Mars, Jupiter
-Earth 1 year = 365, Mercury is 1 year = 365 * .24?
-determine life expectancy for each planted based on being 100 years old on earth
-
-
-# (Application Name)
-
-#### (Brief Description of Application)
-
-#### By (Your Name Here)
+#### By Scott Hutley
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* JavaScript
+* NPM
+* webpack
+* eslint
+* Jest
 
-## Description
+## How old would you be on Mercury? What about Venus? Mars perhaps or even Jupiter? This app will tell! Only for these four planets though because why would you want to know how old you'd be on Saturn or Uranus? 
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* Install Node.js
+* Clone this repository to an empty folder or to your desktop. Instructions for cloning can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository).
+* Navigate to the project folder in the command line.
+* In the command line: Enter npm install to Install dependencies
+* In the command line: Enter npm test
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* The goal of this was to build and pass tests using jest. As such, there is currently no UI or html created for this project.
+
 
 ## License
 
+[MIT](https://opensource.org/licenses/MIT)
+
+_Copyright (c) 2021 Scott Hutley_
+
 ## Contact Information
+
+_Scott Hutley <scotthutley1@comcast.net>_
