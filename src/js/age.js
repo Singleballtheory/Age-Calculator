@@ -9,4 +9,9 @@ export class Person {
     this.mercury = this.age / .24;
     return Math.round(this.mercury * 10) / 10;
   }
+
+  venusAge() {
+
+  }
 }
+

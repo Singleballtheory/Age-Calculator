@@ -12,7 +12,11 @@ describe('Person', () => {
     expect(person.planet).toEqual("Earth");
   });
 
-  test('should convert age to correspond with the planet they are on', () => {
+  test('should convert age to years on Mercury', () => {
     expect(person.mercuryAge()).toEqual(195.8);
-  })
+  });
+
+  test('should convert age to years on Venus', () => {
+    expect(person.venusAge()).toEqual(75.8);
+  });
 });
