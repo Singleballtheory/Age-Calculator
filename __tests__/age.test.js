@@ -14,19 +14,19 @@ describe('Person', () => {
   });
 
   test('should convert age to years on Mercury', () => {
-    expect(person.mercuryAge()).toEqual(195.83);
+    expect(person.mercury).toEqual(195.83333333333334);
   });
 
   test('should convert age to years on Venus', () => {
-    expect(person.venusAge()).toEqual(75.81);
+    expect(person.venus).toEqual(75.80645161290323);
   });
 
   test('should convert age to years on Mars', () => {
-    expect(person.marsAge()).toEqual(25);
+    expect(person.mars).toEqual(25);
   });
 
   test('should convert age to years on Jupiter', () => {
-    expect(person.jupiterAge()).toEqual(3.96);
+    expect(person.jupiter).toEqual(3.9629005059021924);
   });
 
   test('should calculate how many years you have left on Mercury based on current age', () => {
