@@ -39,5 +39,9 @@ export class Person {
     this.venusLeft = this.lifeExpected / .62;
     return Math.round((this.venusLeft - this.venus) * 100) / 100;
   }
+
+  timeLeftMars() {
+    
+  }
 }
 
