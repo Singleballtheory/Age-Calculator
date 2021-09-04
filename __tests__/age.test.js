@@ -40,4 +40,8 @@ describe('Person', () => {
   test('should calculate how many year you have left on Mars based on current age', () => {
     expect(person.timeLeftMars()).toEqual(14.89);
   });
+
+  test('should calculate how many year you have left on Jupiter based on current age', () => {
+    expect(person.timeLeftJupiter()).toEqual(2.36);
+  });
 });
