@@ -3,13 +3,14 @@ import {Person} from './../src/js/age.js';
 describe('Person', () => {
   let person;
   beforeEach(() => {
-    person = new Person("Scott", 47, "Earth");
+    person = new Person("Scott", 47, "Earth", 75);
   });
 
   test('should build a person with a name, age and the planet they are on', () => {
     expect(person.name).toEqual("Scott");
     expect(person.age).toEqual(47);
     expect(person.planet).toEqual("Earth");
+    expect(person.lifeExpected).toEqual(75);
   });
 
   test('should convert age to years on Mercury', () => {

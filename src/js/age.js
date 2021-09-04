@@ -1,9 +1,10 @@
 export class Person {
-  constructor(name, age, planet) {
+  constructor(name, age, planet, lifeExpected) {
     this.name = name;
     this.age = age;
     this.planet = planet;
-    // this.lifeExpected = 75;
+    this.lifeExpected = lifeExpected;
+    this.mercury = (this.age /.24);
     // this.mercuryExpected = "";
   }
 
@@ -28,10 +29,12 @@ export class Person {
   }
 
   timeLeftMercury() {
-    let mercuryLeft = this.mercuryExpected -= this.mercury;
-    this.mercuryExpected = this.lifeExpected / .24;
+    this.mercuryLeft = this.lifeExpected / .24;
+    return Math.round((this.mercuryLeft - this.mercury) * 100) / 100;
+    // this.mercuryLeft -= this.mercury;
+    // let mercuryLeft = this.mercuryExpected -= mercuryAge();
     // this.mercuryExpected -= this.mercury;
-    return Math.round(mercuryLeft * 100) / 100;
+    // return Math.round(newMercury * 100) / 100;
   }
 }
 
