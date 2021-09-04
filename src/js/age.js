@@ -4,7 +4,7 @@ export class Person {
     this.age = age;
     this.planet = planet;
     this.lifeExpected = lifeExpected;
-    this.mercury = this.age /.24;
+    this.mercury = this.age / .24;
     this.venus = this.age / .62;
     this.mars = this.age / 1.88;
     this.jupiter = this.age / 11.86;
@@ -36,7 +36,8 @@ export class Person {
   }
 
   timeLeftVenus() {
-    
+    this.venusLeft = this.lifeExpected / .62;
+    return Math.round((this.venusLeft - this.venus) * 100) / 100;
   }
 }
 

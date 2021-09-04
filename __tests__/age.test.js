@@ -34,6 +34,6 @@ describe('Person', () => {
   });
 
   test('should calculate how many year you have left on Venus based on current age', () => {
-    expect(person.timeLeftVenus()).toEqual(45.15);
+    expect(person.timeLeftVenus()).toEqual(45.16);
   });
 });
