@@ -31,8 +31,10 @@ export class Person {
   }
 
   timeOverMercury() {
-
+    this.mercuryOver = this.lifeExpected / .24;
+    return Math.round((this.mercury - this.mercuryOver) * 100) / 100;
   }
+
 }
 
 
