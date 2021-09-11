@@ -35,6 +35,10 @@ export class Person {
     return Math.round((this.mercury - this.mercuryOver) * 100) / 100;
   }
 
+  timeOverVenus() {
+
+  }
+
 }
 
 
