@@ -54,4 +54,8 @@ describe('Person', () => {
   test('should calculate how many years the person has exceeded their Venus lifespan', () => {
     expect(person2.timeOverVenus()).toEqual(40.32);
   });
+
+  test('should calculate how many years the person has exceeded their Mars lifespan', () => {
+    expect(person2.timeOverMars()).toEqual(13.3);
+  });
 });

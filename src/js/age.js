@@ -40,6 +40,10 @@ export class Person {
     return Math.round((this.venus - this.venusOver) * 100) / 100;
   }
 
+  timeOverMars() {
+
+  }
+
 }
 
 
