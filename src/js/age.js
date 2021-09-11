@@ -36,7 +36,8 @@ export class Person {
   }
 
   timeOverVenus() {
-
+    this.venusOver = this.lifeExpected / .62;
+    return Math.round((this.venus - this.venusOver) * 100) / 100;
   }
 
 }
