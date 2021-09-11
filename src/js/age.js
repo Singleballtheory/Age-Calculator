@@ -29,5 +29,11 @@ export class Person {
     this.jupiterLeft = this.lifeExpected / 11.86;
     return Math.round((this.jupiterLeft - this.jupiter) * 100) / 100;
   }
+
+  timeOverMercury() {
+
+  }
 }
+
+
 

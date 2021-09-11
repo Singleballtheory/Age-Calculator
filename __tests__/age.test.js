@@ -2,8 +2,10 @@ import {Person} from './../src/js/age.js';
 
 describe('Person', () => {
   let person;
+  let person2;
   beforeEach(() => {
     person = new Person("Scott", 47, "Earth", 75);
+    person2 = new Person("Scoot", 100, "Earth", 75);
   });
 
   test('should build a person with a name, age and the planet they are on', () => {
@@ -43,5 +45,9 @@ describe('Person', () => {
 
   test('should calculate how many year you have left on Jupiter based on current age', () => {
     expect(person.timeLeftJupiter()).toEqual(2.36);
+  });
+
+  test('should calculate how many years the person has exceeded their Mercury lifespan', () => {
+    expect(person2.timeOverMercury()).toEqual(104.17);
   });
 });
