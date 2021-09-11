@@ -45,6 +45,11 @@ export class Person {
     return Math.round((this.mars - this.marsOver) * 100) / 100;
   }
 
+  timeOverJupiter() {
+    this.jupiterOver = this.lifeExpected / 11.86;
+    return Math.round((this.jupiter - this.jupiterOver) * 100) / 100;
+  }
+
 }
 
 
